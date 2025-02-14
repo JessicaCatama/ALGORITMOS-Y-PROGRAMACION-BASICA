@@ -1,1 +1,29 @@
-
+Algoritmo Ejercicio_12_Promedio_de_estudiante_sobre_3_materias
+	// entrada
+    Escribir 'Introduce la calificación del examen de Matemática: '
+    Leer examen_matematica
+    Escribir 'Introduce el promedio de las tres tareas de Matemática: '
+    Leer tareas_matematica
+    Escribir 'Introduce la calificación del examen de Física: '
+    Leer examen_fisica
+    Escribir 'Introduce el promedio de las dos tareas de Física: '
+    Leer tareas_fisica
+    Escribir 'Introduce la calificación del examen de Química: '
+    Leer examen_quimica
+    Escribir 'Introduce el promedio de las tres tareas de Química: '
+    Leer tareas_quimica
+	
+    // caja negra
+    promedio_matematica<-(examen_matematica*0.90)+(tareas_matematica*0.10)
+    promedio_fisica<-(examen_fisica*0.80)+(tareas_fisica*0.20)
+    promedio_quimica<-(examen_quimica*0.85)+(tareas_quimica*0.15)
+	
+    // calcular el promedio general
+    promedio_general<-(promedio_matematica+promedio_fisica+promedio_quimica)/3
+	
+    // salida
+    Escribir "El promedio de Matemática es: ", promedio_matematica
+    Escribir "El promedio de Física es: ", promedio_fisica
+    Escribir "El promedio de Química es: ", promedio_quimica
+    Escribir "El promedio general es: ", promedio_general
+FinAlgoritmo
