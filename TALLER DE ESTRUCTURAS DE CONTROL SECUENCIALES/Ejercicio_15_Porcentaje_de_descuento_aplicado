@@ -1,1 +1,11 @@
-
+Algoritmo Ejercicio_15_Porcentaje_de_descuento_aplicado
+	//entrada
+    Escribir 'Introduce el precio de venta al público (PVP): '
+    Leer precio_venta
+    Escribir 'Introduce el precio final pagado por el producto: '
+    Leer precio_final
+	
+    descuento<-((precio_venta-precio_final)/precio_venta)*100
+	//salida
+    Escribir 'El porcentaje de descuento aplicado es: ', descuento, ' %'
+FinAlgoritmo
