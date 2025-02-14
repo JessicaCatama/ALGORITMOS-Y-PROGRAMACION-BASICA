@@ -1,1 +1,10 @@
-
+Algoritmo Ejercicio_4_Total_de_compra_con_descuento
+    Escribir "Introduce el total de la compra:"
+    Leer total_compra
+	//caja negra
+    descuento <- total_compra * 0.15
+    total_a_pagar <- total_compra - descuento
+	//salida
+    Escribir "El descuento aplicado es: ", descuento
+    Escribir "El total a pagar después del descuento es: ", total_a_pagar
+FinAlgoritmo
