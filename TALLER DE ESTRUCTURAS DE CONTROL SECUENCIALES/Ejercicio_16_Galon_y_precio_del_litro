@@ -1,1 +1,12 @@
+Algoritmo Ejercicio_16_Galon_y_precio_del_litro
+	Escribir 'Introduce la cantidad de gasolina surtida en galones: '
+    Leer galones
+	
+    litros<-galones*3.785
 
+    precio_por_litro<-50000
+
+    monto_total<-litros*precio_por_litro
+	
+    Escribir 'El monto total a cobrar es: ', monto_total, ' COP'
+FinAlgoritmo
