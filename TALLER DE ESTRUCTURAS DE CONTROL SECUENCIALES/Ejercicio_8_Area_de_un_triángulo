@@ -1,1 +1,14 @@
-
+Algoritmo Ejercicio_8_Area_de_un_triángulo
+	Escribir 'Ingrese el lado a del triángulo: '
+    Leer a
+    Escribir 'Ingrese el lado b del triángulo: '
+    Leer b
+    Escribir 'Ingrese el lado c del triángulo: '
+    Leer c
+    // Cálculo del semiperímetro
+    s<-(a+b+c)/2
+    // Cálculo del área con la fórmula de Herón
+    area <- raiz(s * (s - a) * (s - b) * (s - c))
+    
+    Escribir 'El área del triángulo es: ', area
+FinAlgoritmo
