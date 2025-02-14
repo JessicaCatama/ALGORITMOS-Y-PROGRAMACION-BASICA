@@ -1,1 +1,17 @@
-
+Algoritmo Ejercicio_5_Calificacion_final_estudiante
+	Escribir 'Introduce la calificación del primer parcial: '
+    Leer parcial1
+    Escribir 'Introduce la calificación del segundo parcial: '
+    Leer parcial2
+	Escribir 'Introduce la calificación del tercer parcial: '
+    Leer parcial3
+	Escribir 'Introduce la calificación del examen final: '
+    Leer examen_final
+	Escribir 'Introduce la calificación del trabajo final: '
+    Leer trabajo_final
+	//caja negra
+    promedio_parciales<-(parcial1+parcial2+parcial3)/3
+    calificacion_final<-(promedio_parciales*0.55)+(examen_final*0.30)+(trabajo_final*0.15)
+	//salida
+    Escribir 'La calificación final del alumno es: ', calificacion_final
+FinAlgoritmo
