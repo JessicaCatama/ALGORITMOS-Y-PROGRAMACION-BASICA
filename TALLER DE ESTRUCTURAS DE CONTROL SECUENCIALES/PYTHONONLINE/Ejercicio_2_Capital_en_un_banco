@@ -1,7 +1,7 @@
 #Entrada
 capital_inicial = float(input("Introduce el capital inicial: "))
-tasa_interes_mensual = 0.02  # 2% mensual
-periodos = 1  # 1 mes
+tasa_interes_mensual = 0.02
+periodos = 1
 #Cálculo del monto final
 monto_final = capital_inicial * (1 + tasa_interes_mensual) ** periodos
 #Salida
