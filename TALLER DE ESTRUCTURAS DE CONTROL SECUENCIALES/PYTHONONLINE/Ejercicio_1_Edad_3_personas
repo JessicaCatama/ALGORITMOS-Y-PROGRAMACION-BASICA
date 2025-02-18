@@ -1,4 +1,4 @@
-#Entradas
+#Entrada
 mujeres=int(input("Ingrese cantidad de mujeres: "))
 hombres=int(input("Ingrese cantidad de hombres: "))
 #Caja negra
