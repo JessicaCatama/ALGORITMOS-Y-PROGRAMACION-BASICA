@@ -1,1 +1,8 @@
-
+#Entrada
+horas_trabajadas = float(input("Ingrese el número de horas trabajadas: ")) 
+precio_hora = float(input("Ingrese el precio por hora: "))
+sueldo_base = horas_trabajadas * precio_hora
+descuento = sueldo_base * 0.20
+salario_neto = sueldo_base - descuento
+#Salida
+print(f"El salario neto es: ${salario_neto:.2f}")
