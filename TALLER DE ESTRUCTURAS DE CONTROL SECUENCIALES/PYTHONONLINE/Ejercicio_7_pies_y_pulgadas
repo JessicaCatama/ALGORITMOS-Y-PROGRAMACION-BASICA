@@ -1,0 +1,6 @@
+#Entrada
+metros = float(input("Ingrese la cantidad en metros: "))
+pulgadas = metros * 39.27
+pies = pulgadas / 12
+#Salida
+print(f"{metros} metros equivalen a {pies:.2f} pies o {pulgadas:.2f} pulgadas.")
