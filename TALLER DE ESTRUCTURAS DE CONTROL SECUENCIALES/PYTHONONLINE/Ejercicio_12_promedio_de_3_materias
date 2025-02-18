@@ -1,0 +1,14 @@
+#Entrada
+promedio_tareas = sum(tareas) / len(tareas) 
+promedio_final = (examen * peso_examen) + (promedio_tareas * peso_tareas) 
+#Notas de las materias
+matematicas = calcular_promedio_materia(90, [85, 90, 88], 0.90, 0.10) 
+fisica = calcular_promedio_materia(80, [75, 80], 0.80, 0.20) 
+quimica = calcular_promedio_materia(85, [82, 84, 86], 0.85, 0.15)
+promedio_general = (matematicas + fisica + quimica) / 3
+#Salida
+print(f"Promedio Matemáticas: {matematicas:.2f}") 
+print(f"Promedio Física: {fisica:.2f}") 
+print(f"Promedio Química: {quimica:.2f}") 
+print(f"Promedio General: {promedio_general:.2f}")
+print(f"Promedio general de las tres materias: {promedio_general:.2f}")
