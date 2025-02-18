@@ -1,0 +1,15 @@
+#Entrada
+parciales = [] 
+for i in range(1, 4): 
+    calificacion = float(input(f"Ingrese la calificación parcial {i}: ")) 
+    parciales.append(calificacion)
+# Calcular el promedio de las calificaciones parciales
+promedio_parciales = sum(parciales) / 3
+# Solicitar la calificación del examen final
+examen_final = float(input("Ingrese la calificación del examen final: "))
+# Solicitar la calificación del trabajo final
+trabajo_final = float(input("Ingrese la calificación del trabajo final: "))
+# Calcular la calificación final aplicando los porcentajes correspondientes
+calificacion_final = (promedio_parciales * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15)
+#Salida
+print(f"La calificación final es: {calificacion_final:.2f}")
