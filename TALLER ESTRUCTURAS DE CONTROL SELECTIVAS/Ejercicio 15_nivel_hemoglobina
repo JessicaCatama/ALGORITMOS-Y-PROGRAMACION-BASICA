@@ -1,1 +1,8 @@
-
+#Entrada
+e=int(input('Ingrese la edad:'))
+h=int(input('Ingrese el nivel de hemoglobina: '))
+s=input('Ingrese si es hombre o mujer:')
+#Caja negra
+if(e>0 and e<=1 and h>13 and h>=26):
+    print('Positivo para anemia')
+elif(e>1 and e<=1 and h>13 and h>=26):
