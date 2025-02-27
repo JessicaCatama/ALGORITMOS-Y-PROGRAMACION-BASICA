@@ -1,0 +1,15 @@
+datos=int(input('Valor discriminante:'))
+formula=complex(input('AX*2+BX+C=0'))
+A=float(2)
+B=float(1)
+C=float(0)
+#caja negra
+D=(B**2)-(4*A*C)
+if(D==0):
+    print(X1=X2)=(-B/(2*A))
+elif(D>0):
+    print(X1=(-B+SQRT(B**2+4*A*C))/(2*A))
+elif(D>0):
+    print(X2=(-B-SQRT(B**2+4*A*C))/(2*A))
+elif(D<0):
+    print('No tiene solucion en los reales')
