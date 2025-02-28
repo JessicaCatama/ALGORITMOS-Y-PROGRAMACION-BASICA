@@ -1,15 +1,18 @@
+import math
 datos=int(input('Valor discriminante:'))
-formula=complex(input('AX*2+BX+C=0'))
-A=float(2)
-B=float(1)
-C=float(0)
-#caja negra
+A=float(A)
+B=float(B)
+C=float(C)
 D=(B**2)-(4*A*C)
+#caja negra
 if(D==0):
-    print(X1=X2)=(-B/(2*A))
+    X=(-B/(2*A))
+    print(f'Única alternativa:{X:.2f}')
 elif(D>0):
-    print(X1=(-B+SQRT(B**2+4*A*C))/(2*A))
+    X1=(-B+math.sqrt(B**2+4*A*C))/(2*A)
+    print(f'Solución:{X1:.2f}')
 elif(D>0):
-    print(X2=(-B-SQRT(B**2+4*A*C))/(2*A))
+    X2=(-B-math.sqrt(B**2+4*A*C))/(2*A)
+    print(f'Solución:{X2:.2f}')
 elif(D<0):
     print('No tiene solucion en los reales')
