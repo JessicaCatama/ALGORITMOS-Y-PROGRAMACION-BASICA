@@ -1,8 +1,8 @@
 Algoritmo Ejercicio_3
-	Escribir ("Digite un número: ")
+	Escribir ("Digite un nÃºmero: ")
 	Leer numero
 	Si numero % 2 == 0 Entonces
-		Escribir "El número es par"
+		Escribir "El nÃºmero es par"
 	SiNo 
 		Escribir "El numero es impar"
 	FinSi
