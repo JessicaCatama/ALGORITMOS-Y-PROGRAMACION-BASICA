@@ -1,0 +1,12 @@
+Algoritmo Ejercicio_17_Presupuesto_ginecologia_pediatria_traumatologia
+	Escribir 'Introduce el presupuesto anual del hospital: '
+    Leer presupuesto_total
+	
+    ginecologia<-presupuesto_total*0.40
+    traumatologia<-presupuesto_total*0.30
+    pediatria<-presupuesto_total*0.30
+	
+    Escribir 'El presupuesto para Ginecología es: ', ginecologia
+    Escribir 'El presupuesto para Traumatología es: ', traumatologia
+    Escribir 'El presupuesto para Pediatría es: ', pediatria
+FinAlgoritmo
