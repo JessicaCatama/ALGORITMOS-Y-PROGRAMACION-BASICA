@@ -1,0 +1,18 @@
+Algoritmo Ejercicio_3_Total_sueldo_más_comisiones
+    Escribir 'Introduce el sueldo base del vendedor: '
+    Leer sueldo_base
+	Escribir 'Introduce el valor de la primera venta: '
+    Leer venta1
+	Escribir 'Introduce el valor de la segunda venta: '
+    Leer venta2
+	Escribir 'Introduce el valor de la tercera venta: '
+    Leer venta3
+	//caja negra
+    comision <- (venta1+venta2+venta3)*0.10
+    total_comisiones<-comision
+	
+    total_pago<-sueldo_base+total_comisiones
+	//salida
+    Escribir 'El total de comisiones es: ', total_comisiones
+    Escribir 'El total que recibirá el vendedor es: ', total_pago
+FinAlgoritmo
