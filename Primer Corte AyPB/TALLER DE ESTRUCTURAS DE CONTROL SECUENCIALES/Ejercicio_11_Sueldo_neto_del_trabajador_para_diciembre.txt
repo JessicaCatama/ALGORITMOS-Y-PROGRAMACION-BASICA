@@ -1,0 +1,23 @@
+Algoritmo Ejercicio_11_Sueldo_neto_del_trabajador_para_diciembre
+	Escribir 'Introduce el nombre del trabajador: '
+    Leer nombre
+	Escribir 'Introduce el número de horas normales trabajadas: '
+    Leer horas_normales
+    Escribir 'Introduce el pago por hora normal (COP): '
+    Leer pago_por_hora
+    Escribir 'Introduce el número de horas extras trabajadas: '
+    Leer horas_extras
+	
+	//caja negra
+    sueldo_base<-horas_normales*pago_por_hora
+    horas_extras_pago<-horas_extras*(pago_por_hora*1.25)
+	
+    asignaciones<-250000+(173000*2)+180000
+    deducciones<-(sueldo_base*0.05)+(sueldo_base*0.02)+(sueldo_base*0.07)
+	
+    sueldo_neto<-sueldo_base+horas_extras_pago+asignaciones-deducciones
+	//salida
+    Escribir 'Asignaciones: ', asignaciones
+    Escribir 'Deducciones: ', deducciones
+    Escribir 'Sueldo neto: ', sueldo_neto
+FinAlgoritmo
