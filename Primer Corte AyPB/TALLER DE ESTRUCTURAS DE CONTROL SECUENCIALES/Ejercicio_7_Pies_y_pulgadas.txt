@@ -1,0 +1,12 @@
+Algoritmo Ejercicio_7_Pies_y_pulgadas
+	//entradas
+	Escribir 'Introduce la cantidad en metros: '
+    Leer metros
+	//caja negra
+    pulgadas_totales<-metros*39.27
+	
+    pies<-trunc(pulgadas_totales/12)
+    pulgadas<-pulgadas_totales-(pies*12)
+	//salida
+    Escribir 'Equivalente a: ', pies, ' pies y ', pulgadas, ' pulgadas.'
+FinAlgoritmo
