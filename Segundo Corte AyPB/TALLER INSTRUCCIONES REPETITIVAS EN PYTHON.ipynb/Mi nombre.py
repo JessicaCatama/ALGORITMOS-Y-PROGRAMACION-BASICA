@@ -33,6 +33,9 @@ nombre.fd(170)
 nombre.lt(145)
 nombre.fd(140)
 
+https://docs.python.org/3/library/turtle.html
+https://www.geeksforgeeks.org/turtle-programming-python/
+
 #S
 nombre.speed(3)
 nombre.color("black")
